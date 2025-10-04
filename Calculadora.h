@@ -14,6 +14,7 @@ public:
 	double restar(double a, double b);
 	double multiplicar(double a, double b);
 	double dividir(double a, double b);
+	double potencia(double a, double b);
 	void mostrarHistorial() const;
 };
 

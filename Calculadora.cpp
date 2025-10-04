@@ -1,6 +1,7 @@
 #include "Calculadora.h"
 #include <stdexcept>
 #include <iostream>
+#include <cmath>
 
 double Calculadora::sumar(double a, double b) {
 	double r = a + b;
@@ -26,6 +27,12 @@ double Calculadora::dividir(double a, double b) {
 	}
 	double r = a / b;
 	historial.push_back(std::to_string(a) + " / " + std::to_string(b) + " = " + std::to_string(r));
+	return r;
+}
+
+double Calculadora::potencia(double a, double b) {
+	double r = pow(a, b);
+	historial.push_back(std::to_string(a) + " ^ " + std::to_string(b) + " = " + std::to_string(r));
 	return r;
 }
 

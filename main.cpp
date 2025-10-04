@@ -25,6 +25,7 @@ int main() {
 			case 3: std::cout << "Resultado: " << calc.multiplicar(a, b) << "\n"; break;
 			case 4: std::cout << "Resultado: " << calc.dividir(a, b) << "\n"; break;
 			case 5: calc.mostrarHistorial(); break;
+			case 6: std::cout << "Resultado: " << calc.potencia(a, b) << "\n"; break;
 			default: std::cout << "Opción no valida. \n"; continue;
 			}
 		}
