@@ -1,0 +1,30 @@
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.opendb
+*.log
+*.tlog
+*.obj
+*.pch
+*.idb
+*.ipch
+*.aps
+*.ncb
+*.res
+*.ilk
+*.exe
+*.dll
+*.pdb
+*.cache
+*.iobj
+*.ipdb
+*.tmp
+*.bak
+*.AutoRecover.*
+
+# Carpetas de compilación
+x64/
+Debug/
+Release/
