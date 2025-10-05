@@ -13,10 +13,13 @@ int main() {
 
 		if (opcion == 0) break;
 
-		std::cout << "Ingrese el primer número: ";
-		std::cin >> a;
-		std::cout << "Ingrese el segundo número: ";
-		std::cin >> b;
+		if (opcion != 5) {
+			std::cout << "Ingrese el primer número: ";
+			std::cin >> a;
+			std::cout << "Ingrese el segundo número: ";
+			std::cin >> b;
+		}
+		
 
 		try {
 			switch (opcion) {
